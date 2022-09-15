@@ -56,7 +56,7 @@ public class Start {
         wd.findElement(By.linkText("ABOUT"));
         wd.findElement(By.partialLinkText("AB"));
         // By.name
-        wd.findElement(By.name("name"));
+        wd.findElement(By.linkText("name"));
         wd.findElement(By.name("surename"));
 
         // By.ccsSelector
@@ -111,4 +111,6 @@ public class Start {
 
        wd.quit();
     }
+
+
 }
